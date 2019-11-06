@@ -18,8 +18,8 @@ Rails.application.routes.draw do
 
   get '/stats', to: 'stats#index'
   get '/authors/new', to: 'authors#new'
-  get '/admin/authors/delete', to: 'authors#delete'
-  get '/admin/authors/create', to: 'authors#create'
-  get '/admin/comments/moderate', to: 'comments#moderate'
+  get '/authors/delete', to: 'authors#delete'
+  get '/authors/create', to: 'authors#create'
+  get '/comments/moderate', to: 'comments#moderate'
 
 end
